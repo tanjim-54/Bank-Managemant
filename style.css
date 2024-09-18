@@ -1,0 +1,88 @@
+
+.total{
+    background-color: rgb(197, 215, 216);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.total2{
+    background-color: rgb(197, 215, 216);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    font-size: 60px;
+    text-decoration: underline;
+    
+}
+
+.d{
+    height: 50px;
+    width: 30%;
+    font-size: 30px;
+    background-color: cadetblue;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.userInfo, .accountInfo, .diposit, .transfer, .withdraw, .history{
+    height: 300px;
+    width: 30%;
+    font-size: 30px;
+    background-color: cadetblue;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CuserInfo{
+    font-size : 25px;
+    margin: 10px;
+}
+
+#submit{
+    margin-top : 60px;
+}
+
+.d:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.adding{
+    margin-top: 20px;
+    width: 30%;
+    font-size: 20px;
+    background-color: rgb(154, 186, 186);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.adding2{
+    margin-top: 20px;
+    width: 30%;
+    font-size: 25px;
+    background-color: rgb(154, 186, 186);
+    text-align: center;
+    line-height: 50px;
+}
